@@ -73,7 +73,7 @@ public class MainWindowController implements Initializable {
         tbvRunTimes.setItems(runTimeData);
         tbvRunTimes.setEditable(true);
 
-        rbBEEntities.setDisable(true);
+        rbBEEntities.setDisable(false);
 
         //only enable button if user clicked an algorithm
         lvAlgorithms.setOnMouseClicked((event) -> {
